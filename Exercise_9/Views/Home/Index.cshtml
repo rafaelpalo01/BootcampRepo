@@ -1,0 +1,167 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">  
+        <!-- Add a Corousel with atleast 4 Slides. I used bootstrap5-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <a asp-area="" asp-controller="Home" asp-action="Huawei" class="btn1 btn1-lg btn1-primary">
+                        Learn More
+                    </a>
+                </div>
+                <img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/huaweicarousel.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <a asp-area="" asp-controller="Home" asp-action="Applewatchseries7" class="btn3 btn3-lg btn3-primary">
+                        Explore Now
+                    </a>
+                </div>
+                <img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/applecarousel.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <a asp-area="" asp-controller="Home" asp-action="Galaxywatch" class="btn4 btn4-lg btn4-primary">
+                        Learn more
+                    </a>
+                </div>
+                <img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/samsungcarousel.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="container"> 
+                    <a asp-area="" asp-controller="Home" asp-action="Xiaomi" class="btn5 btn5-lg btn5-primary">
+                        Explore Now
+                    </a>
+                </div>
+                <img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/xiaomicarousel.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>      
+    </div>
+
+    
+
+   <!--Five Products for the Table with description, name, price-->
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">SmartWatch</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href=Products/Details/6><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/oneplus.png" /></a>
+                    <a href=Products/Details/6><h4>OnePlus Watch</h4></a>
+                    <p>
+                        The OnePlus Watch is the first smartwatch from OnePlus. It delivers a stylish design,
+                        fitness tracking, and impressive battery life at a modest price.
+                    </p>
+                    <p1>Price:₱6,899.00</p1><br />
+                    <a class="detailed" href=Products/Details/6><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                     <a href=Products/Details/1><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/applewatch.png"></a>
+                     <a href=Products/Details/1><h4>Apple Watch Series 7</h4></a>
+                    <p>
+                        The larger display enhances the entire experience, making Apple Watch easier to use and read. Series 7 represents
+                        our biggest and brightest thinking yet.
+                    </p>
+                    <p1>Price:₱22,990.00</p1><br />
+                    <a class="detailed" href=Products/Details/9><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/8><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/xiaomi.png" /></a>
+                    <a href=Products/Details/8><h4>Xiaomi Watch S1 Active</h4></a>
+                    <p>
+                        The new stylish and lightweight design to truly style up your fitness. Weighing only 36.3g, Xiaomi Watch S1 Active will
+                        assist your workout with no limits.
+                    </p>
+                    <p1>Price:₱7,999.00</p1><br />
+                    <a class="detailed" href=Products/Details/8><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/5><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/huawei.png" /></a>
+                    <a href=Products/Details/5><h4>Huawei Watch GT 3</h4></a>
+                    <p>
+                        A true masterpiece, the elegant 42 mm dial catches light on the 3D curved glass, giving a soft, water-like glow. It adopts a simplistic body design with high-gloss finish, accompanied by
+                        refined straps for a modern, sophisticated look.
+                    </p>
+                    <p1>Price:₱12,899.00</p1><br />
+                    <a class="detailed" href=Products/Details/5><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/2><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/galaxy watch.png" /></a>
+                    <<a href=Products/Details/2><h4>Samsung Galaxy Watch 4</h4></a>
+                    <p>
+                        Reach for a healthier you in the Galaxy Watch 4 with Wear OS, featuring fitness tracking, body composition, blood pressure,
+                        ECG, step counting and more!
+                    </p>
+                    <p1>Price:₱17,990.00</p1><br>
+                    <a class="detailed" href=Products/Details/2><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/9 ><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/applewatchseries3.jfif" /></a>
+                    <a href=Products/Details/9><h4>Apple Watch Series 3</h4></a>
+                    <p>
+                       The Apple Watch Series 3 is still for sale in 2022, nearly 5 years after its release. Apple kept the device around for a low-priced entry point for consumers. Even when the Apple Watch SE was revealed, Apple didn't stop selling the aging Series 3.
+                    </p>
+                    <p1>Price:₱15,990.00</p1><br />
+                    <a class="detailed" href=Products/Details/9><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/11 ><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/xiaomipocowatch.jpg" /></a>
+                    <a href=Products/Details/11><h4>Xiaomi Poco Watch</h4></a>
+                    <p>
+                       Equipped with a wide range of personalised watch faces,* the POCO Watch lets you show off your unique style with every lift of the wrist. You can even customise your own watch faces by uploading photos in the app.
+                    </p>
+                    <p1>Price:₱3,999.00</p1><br />
+                    <a class="detailed" href=Products/Details/11><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/12 ><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/honor-watch-gs3-1.jpg" /></a>
+                    <a href=Products/Details/12><h4>Honor Watch GS 3</h4></a>
+                    <p>
+                       Honor Watch GS 3 comes with a 1.43-inch AMOLED display with 466x466 pixel resolution. The smartwatch offers 4GB of RAM and 32GB of internal storage. The device is compatible with both Android and iOS devices.
+                    </p>
+                    <p1>Price:₱10,305.00</p1><br />
+                    <a class="detailed" href=Products/Details/12><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/14 ><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/realme%20watch.jpg" /></a>
+                    <a href=Products/Details/14><h4>Realme Watch</h4></a>
+                    <p>
+                       The smartwatch comes with 1.4 inches IPS LCD capacitive touchscreen providing 320 x 320 pixels. The device is incorporated with 380 nits typ. brightness that provides 16M colors with 323 PPI density and 67.7% screen-to-body ratio.
+                    </p>
+                    <p1>Price:₱3,990.00</p1><br />
+                    <a class="detailed" href=Products/Details/14<p><p>Details</p></a>
+                </div>
+                <div class="col-4">
+                    <a href=Products/Details/15 ><img src="https://fy2205storagerafaelpalo.blob.core.windows.net/fy2205images/oppowatch.jpg" /></a>
+                    <a href=Products/Details/15><h4>Oppo Watch</h4></a>
+                    <p>
+                       Epic screens aren't just for flagship phones anymore. OPPO Watch is dressed to impress, with a dual-curved flexible AMOLED screen, crisp image quality, and colors that pop. A 3D curved back design keeps your watch looking good from different angles. For a personal twist, fill the background with a picture of your choice.
+                    </p>
+                    <p1>Price:₱6,828.00</p1><br />
+                    <a class="detailed" href=Products/Details/15><p>Details</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    

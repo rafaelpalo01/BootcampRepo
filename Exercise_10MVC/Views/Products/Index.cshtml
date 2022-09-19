@@ -1,0 +1,132 @@
+﻿@model IEnumerable<Exercise_9.Entity.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="summary">
+<h1>Watches Summary</h1>
+</div>
+<p>
+    <a class="createnew" asp-action="Create">Create New</a>
+</p>
+<table class="table table-hover table-striped">
+    
+    <thead>
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemNumber)
+            </th>
+            <th> <div class="short">
+                @Html.DisplayNameFor(model => model.ShortDescription)    
+                </div>
+            </th>
+            <th> <div class="full">
+                @Html.DisplayNameFor(model => model.FullDescription)  
+                </div>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Caliber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movement)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Chronograph)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Height)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diameter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Thickness)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jewely)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseMaterial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrapMaterial)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>    
+            <td>
+                <a class="design1" asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> <br> <br>
+                <a class="design1" asp-action="Details" asp-route-id="@item.ProductId">Details</a> <br> <br>
+                <a class="design1" asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+            </td>
+            <td>                
+                <img src="@item.Image" width="100"; height="100"> 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td> 
+                @Html.DisplayFor(modelItem => item.ItemNumber)                
+            </td>
+            <td> <div class="short">
+                @Html.DisplayFor(modelItem => item.ShortDescription)
+                </div>
+            </td>
+            <td> <div class="full">
+                @Html.DisplayFor(modelItem => item.FullDescription)
+                </div>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Caliber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Movement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Chronograph)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Weight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diameter)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Thickness)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jewely)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseMaterial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrapMaterial)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
