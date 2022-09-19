@@ -1,0 +1,14 @@
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\bin\Debug\netcoreapp3.1\Exercise_5.exe
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\bin\Debug\netcoreapp3.1\Exercise_5.deps.json
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\bin\Debug\netcoreapp3.1\Exercise_5.runtimeconfig.json
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\bin\Debug\netcoreapp3.1\Exercise_5.runtimeconfig.dev.json
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\bin\Debug\netcoreapp3.1\Exercise_5.dll
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\bin\Debug\netcoreapp3.1\Exercise_5.pdb
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.csproj.AssemblyReference.cache
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.AssemblyInfoInputs.cache
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.AssemblyInfo.cs
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.csproj.CoreCompileInputs.cache
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.dll
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.pdb
+C:\Users\rafael.palo\source\repos\Exercises\FY2205_Exercises_rafael.palo\Exercise_5\obj\Debug\netcoreapp3.1\Exercise_5.genruntimeconfig.cache

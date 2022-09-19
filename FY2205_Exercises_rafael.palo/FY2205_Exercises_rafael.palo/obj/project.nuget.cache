@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VusVjj9jKHDOyw38t5ir8V2SshtHV/Cqtp/Lsv3q3mYj9qU0AKuY0a2gQcwViYtR3TCyH1MvQD1OOjNtoAmf/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafael.palo\\source\\repos\\Exercises\\FY2205_Exercises_rafael.palo\\FY2205_Exercises_rafael.palo\\Exercise_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafael.palo\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
